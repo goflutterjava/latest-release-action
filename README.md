@@ -12,9 +12,8 @@ Add following step to your workflow:
   uses: shoothzj/latest-release-action@main
   with:
     tag_name: latest #(optional) default: latest
-    files: |
-      file1
-      file2
+    release_name: latest #(optional) default: latest
+    files: file1,file2
   env:
     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
