@@ -1,0 +1,12 @@
+name: Latest Release
+description: Perform latest release
+author: "shoothzj"
+
+inputs:
+  tag_name:
+    description: tag name
+    required: true
+
+runs:
+  using: 'node16'
+  main: 'index.js'
