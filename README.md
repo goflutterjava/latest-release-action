@@ -9,7 +9,7 @@ Add following step to your workflow:
 
 ```yaml
 - name: Release
-  uses: shoothzj/latest-release-action@master
+  uses: shoothzj/latest-release-action@main
   with:
     tag_name: latest #(optional) default: latest
     files: |
