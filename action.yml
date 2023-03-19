@@ -11,6 +11,9 @@ inputs:
     description: release name
     required: false
     default: "latest"
+  files:
+    description: "upload files, split by comma"
+    required: true
 
 runs:
   using: 'node16'
